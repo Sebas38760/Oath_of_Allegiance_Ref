@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-Oath_of_Allegiance\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-05-10 13:03\n"
-"PO-Revision-Date: 2026-05-16 21:53-0300\n"
+"POT-Creation-Date: 2026-06-16 19:59\n"
+"PO-Revision-Date: 2026-06-17 20:25-0300\n"
 "Last-Translator: Sebastián Lecchini <sebas38760@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 #. [campaign], id=Oath_of_Allegiance
 #. [editor_group], id=oa
 #. [achievement_group]
-#: Oath_of_Allegiance_Ref/_main.cfg:10 Oath_of_Allegiance_Ref/_main.cfg:153
+#: Oath_of_Allegiance_Ref/_main.cfg:10 Oath_of_Allegiance_Ref/_main.cfg:159
 #: Oath_of_Allegiance_Ref/achievements.cfg:3
 #: Oath_of_Allegiance_Ref/macros/campaign-macro.cfg:8
 msgid "Oath of Allegiance"
@@ -44,6 +44,11 @@ msgstr ""
 #: Oath_of_Allegiance_Ref/_main.cfg:28
 msgid "(Intermediate difficulty, 22 scenarios, 3 of them dialogue-only)"
 msgstr "(Dificultad intermedia, 22 escenarios, 3 de ellos solo diálogos)"
+
+#. [about] name=Sebas (Spanish)
+#: Oath_of_Allegiance_Ref/_main.cfg:101
+msgid "Translation"
+msgstr "Traducción"
 
 #. [achievement], id=ooa1
 #: Oath_of_Allegiance_Ref/achievements.cfg:7
@@ -742,24 +747,24 @@ msgstr ""
 
 #. [option]
 #: Oath_of_Allegiance_Ref/macros/items.cfg:111
-#: Oath_of_Allegiance_Ref/macros/items.cfg:234
+#: Oath_of_Allegiance_Ref/macros/items.cfg:244
 msgid "Take it."
 msgstr "Tómalo."
 
 #. [option]
-#: Oath_of_Allegiance_Ref/macros/items.cfg:151
-#: Oath_of_Allegiance_Ref/macros/items.cfg:274
+#: Oath_of_Allegiance_Ref/macros/items.cfg:161
+#: Oath_of_Allegiance_Ref/macros/items.cfg:294
 msgid "Leave it."
 msgstr "Déjalo."
 
 #. [message], speaker=narrator
-#: Oath_of_Allegiance_Ref/macros/items.cfg:171
-#: Oath_of_Allegiance_Ref/macros/items.cfg:294
+#: Oath_of_Allegiance_Ref/macros/items.cfg:181
+#: Oath_of_Allegiance_Ref/macros/items.cfg:314
 msgid "This unit can not use this object."
 msgstr "Esta unidad no puede usar este objeto."
 
 #. [message], speaker=narrator
-#: Oath_of_Allegiance_Ref/macros/items.cfg:611
+#: Oath_of_Allegiance_Ref/macros/items.cfg:631
 msgid "This item does not suit the unit."
 msgstr "Este objeto no es adecuado para la unidad."
 
@@ -1005,9 +1010,9 @@ msgid ""
 "take a look at those mighty Tangshes! Your Dune Sandlurker may ride them!"
 msgstr ""
 "¡Ahhh! ¡Un cliente! He domesticado algunos guivernos y puedo venderte "
-"algunos y entrenar a tus Guardia de Lanza del Desierto, Maestro de Lanza del "
-"Desierto y Gran Lanza del Desierto para montarlos. ¡O echa un vistazo a esos "
-"poderosos Tangshes! ¡Tu Acechador de Arena del Desierto puede montarlos!"
+"algunos y entrenar a tus Lanceros, Alabarderos  y Grandes Alabarderos "
+"Barjanes para montarlos. ¡O echa un vistazo a esos poderosos Tangshes! ¡Tu "
+"Acechador Barján puede montarlos!"
 
 #. [message], speaker=Sharaf
 #. [unit_type], id=Wyvern, race=monster
@@ -1029,8 +1034,7 @@ msgstr "Guiverno [45 de oro]"
 #. [45gold]
 #: Oath_of_Allegiance_Ref/macros/tharwya-merchants-macro.cfg:77
 msgid "A wyvern explicitly trained for your Dune Spearguard!"
-msgstr ""
-"¡Un guiverno entrenado específicamente para tu Guardia de Lanza del Desierto!"
+msgstr "¡Un guiverno entrenado específicamente para tu Lancero Barján!"
 
 #. [option]
 #: Oath_of_Allegiance_Ref/macros/tharwya-merchants-macro.cfg:102
@@ -1040,8 +1044,7 @@ msgstr "Guiverno [55 de oro]"
 #. [55gold]
 #: Oath_of_Allegiance_Ref/macros/tharwya-merchants-macro.cfg:103
 msgid "A wyvern explicitly trained for your Dune Spearmaster!"
-msgstr ""
-"¡Un guiverno entrenado específicamente para tu Maestro de Lanza del Desierto!"
+msgstr "¡Un guiverno entrenado específicamente para tu Alabardero Barján!"
 
 #. [option]
 #: Oath_of_Allegiance_Ref/macros/tharwya-merchants-macro.cfg:128
@@ -1051,8 +1054,7 @@ msgstr "Guiverno [65 de oro]"
 #. [65gold]
 #: Oath_of_Allegiance_Ref/macros/tharwya-merchants-macro.cfg:129
 msgid "A wyvern explicitly trained for your Dune Greatlance!"
-msgstr ""
-"¡Un guiverno entrenado específicamente para tu Gran Lanza del Desierto!"
+msgstr "¡Un guiverno entrenado específicamente para tu Gran Alabardero Barján!"
 
 #. [option]
 #: Oath_of_Allegiance_Ref/macros/tharwya-merchants-macro.cfg:154
@@ -1149,7 +1151,7 @@ msgstr "Un escarabajo gigante capturado en los Yermos Arenados"
 #: Oath_of_Allegiance_Ref/macros/tharwya-merchants-macro.cfg:364
 #: Oath_of_Allegiance_Ref/units/dunefolk/assassin.cfg:4
 msgid "Dune Assassin"
-msgstr "Asesino del Desierto"
+msgstr "Asesino Barján"
 
 #. [message], speaker=Karah
 #: Oath_of_Allegiance_Ref/macros/tharwya-merchants-macro.cfg:364
@@ -1161,7 +1163,7 @@ msgstr "Un asesino que puede ocultarse en la oscuridad"
 #: Oath_of_Allegiance_Ref/macros/tharwya-merchants-macro.cfg:365
 #: Oath_of_Allegiance_Ref/units/dunefolk/plunderer.cfg:4
 msgid "Dune Plunderer"
-msgstr "Saqueador del Desierto"
+msgstr "Saqueador Barján"
 
 #. [message], speaker=Karah
 #: Oath_of_Allegiance_Ref/macros/tharwya-merchants-macro.cfg:365
@@ -1185,7 +1187,7 @@ msgstr "Una criatura gigante similar a un toro capturada en el lejano este"
 #: Oath_of_Allegiance_Ref/macros/tharwya-merchants-macro.cfg:368
 #: Oath_of_Allegiance_Ref/units/dunefolk/palaceguard.cfg:4
 msgid "Dune Palaceguard"
-msgstr "Guardia de Palacio del Desierto"
+msgstr "Guardia de Palacio Barján"
 
 #. [message], speaker=Karah
 #: Oath_of_Allegiance_Ref/macros/tharwya-merchants-macro.cfg:368
@@ -1880,9 +1882,8 @@ msgid ""
 msgstr ""
 "Conocemos tu poder y es tu poder lo que necesitamos. Un gran peligro yace "
 "bajo las arenas que son nuestro hogar, un peligro que lentamente devora la "
-"voluntad de nuestro pueblo. El Maestro de Guerra de la ciudad "
-"de Serrul ha sido envenenado. Pero no es un veneno que podamos curar. Es... "
-"más que eso."
+"voluntad de nuestro pueblo. El Maestro de Guerra de la ciudad de Serrul ha "
+"sido envenenado. Pero no es un veneno que podamos curar. Es... más que eso."
 
 #. [message], speaker=Dawoud
 #: Oath_of_Allegiance_Ref/scenarios/01_From_Afar.cfg:375
@@ -1893,9 +1894,9 @@ msgid ""
 "people."
 msgstr ""
 "Necesitamos tu ayuda para curar su enfermedad ya que nuestro pueblo no puede "
-"usar magia. Debes curar al Maestro de Guerra para que pueda "
-"liderar nuestras tropas y repeler el terror. Tu magia puede alejar los "
-"peligros que aterrorizan a nuestro pueblo."
+"usar magia. Debes curar al Maestro de Guerra para que pueda liderar nuestras "
+"tropas y repeler el terror. Tu magia puede alejar los peligros que "
+"aterrorizan a nuestro pueblo."
 
 #. [message], speaker=Ilriel
 #: Oath_of_Allegiance_Ref/scenarios/01_From_Afar.cfg:380
@@ -2451,20 +2452,20 @@ msgid ""
 "unique among the units of the Dunefolk."
 msgstr ""
 "\n"
-"El Soldado barján se presenta como un excelente luchador cuerpo a "
-"cuerpo capaz de atravesar fácilmente la defensa enemiga.\n"
+"El Soldado barján se presenta como un excelente luchador cuerpo a cuerpo "
+"capaz de atravesar fácilmente la defensa enemiga.\n"
 "\n"
-"El Hostigador barján es un luchador débil pero versátil. Es capaz de "
-"ignorar la Zona de Control del enemigo.\n"
+"El Hostigador barján es un luchador débil pero versátil. Es capaz de ignorar "
+"la Zona de Control del enemigo.\n"
 "\n"
 "El Caminante barján no tiene debilidades reales y por eso juega un gran "
 "papel en cualquier ejército barján.\n"
 "\n"
-"El Herborista barján es una unidad de apoyo con una fuerte habilidad "
-"de sanación +4, aunque no puede curar venenos.\n"
+"El Herborista barján es una unidad de apoyo con una fuerte habilidad de "
+"sanación +4, aunque no puede curar venenos.\n"
 "\n"
-"El Incendiario barján es una unidad especializada con tipo de ataque "
-"de fuego, único entre las unidades barjanes."
+"El Incendiario barján es una unidad especializada con tipo de ataque de "
+"fuego, único entre las unidades barjanes."
 
 #. [message], speaker=narrator
 #: Oath_of_Allegiance_Ref/scenarios/02_Drought.cfg:569
@@ -2590,13 +2591,13 @@ msgid ""
 "Dune Warmaster of Serrul is ill, the power-hungry will be drawn to Serrul "
 "like moths to the flame."
 msgstr ""
-"El Maestro de Guerra de Serrul, Ridwan, cayó víctima de una "
-"extraña enfermedad que envenenó su mente y lo dejó incapaz de gobernar sus "
-"tierras. Uthman, el soberano de Kesh, una ciudad al este de los desiertos de "
-"ceniza conocida en las tierras de mi pueblo por su fuerte fuerza militar, se "
-"enteró de su estado debilitado y ahora ansía su sangre y su trono. Mientras "
-"el Maestro de Guerra de Serrul esté enfermo, los sedientos de "
-"poder se sentirán atraídos por Serrul como polillas a la llama."
+"El Maestro de Guerra de Serrul, Ridwan, cayó víctima de una extraña "
+"enfermedad que envenenó su mente y lo dejó incapaz de gobernar sus tierras. "
+"Uthman, el soberano de Kesh, una ciudad al este de los desiertos de ceniza "
+"conocida en las tierras de mi pueblo por su fuerte fuerza militar, se enteró "
+"de su estado debilitado y ahora ansía su sangre y su trono. Mientras el "
+"Maestro de Guerra de Serrul esté enfermo, los sedientos de poder se sentirán "
+"atraídos por Serrul como polillas a la llama."
 
 #. [message], speaker=Dawoud
 #: Oath_of_Allegiance_Ref/scenarios/02_Drought.cfg:701
@@ -3271,8 +3272,8 @@ msgstr ""
 "Están custodiados por veteranos de Serrul. Como no hemos encontrado "
 "comerciantes errantes, deberíamos invitar a los guardias a unirse a "
 "nosotros. Su experiencia en combate nos será de gran utilidad a nosotros y "
-"al Maestro de Guerra de Serrul. Necesitamos toda la ayuda "
-"posible, ya que las fuerzas de Uthman son conocidas por ser despiadadas."
+"al Maestro de Guerra de Serrul. Necesitamos toda la ayuda posible, ya que "
+"las fuerzas de Uthman son conocidas por ser despiadadas."
 
 #. [message], speaker=narrator
 #: Oath_of_Allegiance_Ref/scenarios/04_A_Whisper_in_the_Sands.cfg:456
@@ -3543,8 +3544,8 @@ msgstr "Sobrevive hasta el final de los turnos"
 msgid ""
 "Duneworms are susceptible to fire. Use your Dune Burners to fight them back."
 msgstr ""
-"Los gusanos del desierto son susceptibles al fuego. Usa tus Incendiarios"
-" para rechazarlos."
+"Los gusanos del desierto son susceptibles al fuego. Usa tus Incendiarios "
+"para rechazarlos."
 
 #. [message], speaker=Uthain
 #: Oath_of_Allegiance_Ref/scenarios/05_Six_Feet_Under.cfg:219
@@ -3830,8 +3831,7 @@ msgid ""
 "snake!"
 msgstr ""
 "¡Ridwan! ¡Limpia tu mente! Los soldados perderán la esperanza si el Maestro "
-"de Guerra se rinde. ¡Debes permanecer fuerte y resistir a la "
-"serpiente!"
+"de Guerra se rinde. ¡Debes permanecer fuerte y resistir a la serpiente!"
 
 #. [message], speaker=Uthman
 #: Oath_of_Allegiance_Ref/scenarios/06_The_Pearl_of_the_Desert.cfg:325
@@ -3861,8 +3861,8 @@ msgid ""
 msgstr ""
 "¡Pah! ¡Esto no es el final! ¡Así no terminará! ¡Serrul no caerá! ¡Hombres! "
 "¡En formación! ¡Estamos obligados a proteger a los ciudadanos de Serrul, a "
-"proteger al Maestro de Guerra de Serrul contra lo que sea que "
-"surja en el horizonte!"
+"proteger al Maestro de Guerra de Serrul contra lo que sea que surja en el "
+"horizonte!"
 
 #. [message], speaker=Dawoud
 #: Oath_of_Allegiance_Ref/scenarios/06_The_Pearl_of_the_Desert.cfg:349
@@ -3980,9 +3980,9 @@ msgid ""
 "times of war and intrigues? The Athvari would understand this case. And for "
 "sure they will. Trust me."
 msgstr ""
-"¿Qué puede ser peor que la muerte del Maestro de Guerra de "
-"Serrul en estos tiempos de guerra e intrigas? Los athvari entenderían este "
-"caso. Y seguro que lo harán. Confía en mí."
+"¿Qué puede ser peor que la muerte del Maestro de Guerra de Serrul en estos "
+"tiempos de guerra e intrigas? Los athvari entenderían este caso. Y seguro "
+"que lo harán. Confía en mí."
 
 #. [message], speaker=Ibn Khazul
 #: Oath_of_Allegiance_Ref/scenarios/06_The_Pearl_of_the_Desert.cfg:447
@@ -4095,7 +4095,7 @@ msgid ""
 "to circle and harass their foes."
 msgstr ""
 "\n"
-"Los Jinetes del Desierto son los únicos jinetes. Usa su velocidad y agilidad "
+"Los Jinetes Barjanes son los únicos jinetes. Usa su velocidad y agilidad "
 "superiores para rodear y hostigar a sus enemigos."
 
 #. [objective], condition=win
@@ -4112,7 +4112,7 @@ msgstr "Ilriel es atacada por las fuerzas de Kesh"
 #. [note]
 #: Oath_of_Allegiance_Ref/scenarios/06_The_Pearl_of_the_Desert.cfg:562
 msgid "You can now recruit and Dune Rider"
-msgstr "Ahora puedes reclutar Jinetes del Desierto"
+msgstr "Ahora puedes reclutar Jinetes Barjanes"
 
 #. [note]
 #: Oath_of_Allegiance_Ref/scenarios/06_The_Pearl_of_the_Desert.cfg:565
@@ -4125,7 +4125,7 @@ msgid ""
 "The Dune Greatlance will leave their position and attack enemies, once they "
 "are near."
 msgstr ""
-"Los Gran Lanza del Desierto abandonarán su posición y atacarán a los "
+"Los Grandes Alabarderos Barjanes abandonarán su posición y atacarán a los "
 "enemigos una vez que estén cerca."
 
 #. [message], speaker=Uthain
@@ -4341,7 +4341,7 @@ msgstr "Yo... me siento débil..."
 #. [message], speaker=Dawoud
 #: Oath_of_Allegiance_Ref/scenarios/06_The_Pearl_of_the_Desert.cfg:874
 msgid "Men! Bring the Dune Apothecary!"
-msgstr "¡Hombres! ¡Traigan al Herborista del Desierto!"
+msgstr "¡Hombres! ¡Traigan al Boticario!"
 
 #. [message], speaker=Yusar
 #: Oath_of_Allegiance_Ref/scenarios/06_The_Pearl_of_the_Desert.cfg:881
@@ -4485,7 +4485,7 @@ msgid ""
 "Warmaster with my riders. Be careful out there!"
 msgstr ""
 "Entonces está decidido. No puedo rechazar tu oferta. Protegeré al Maestro de "
-"Guerra del Desierto con mis jinetes. ¡Tengan cuidado allá afuera!"
+"Guerra Barján con mis jinetes. ¡Tengan cuidado allá afuera!"
 
 #. [message], speaker=Dawoud
 #: Oath_of_Allegiance_Ref/scenarios/06_The_Pearl_of_the_Desert.cfg:976
@@ -5200,8 +5200,8 @@ msgid ""
 "So the Sphere poisoned the Dune Warmaster of Serrul to sow destruction and "
 "chaos?"
 msgstr ""
-"¿Entonces la Esfera envenenó al Maestro de Guerra de Serrul "
-"para sembrar destrucción y caos?"
+"¿Entonces la Esfera envenenó al Maestro de Guerra de Serrul para sembrar "
+"destrucción y caos?"
 
 #. [message], speaker=Sinan
 #: Oath_of_Allegiance_Ref/scenarios/08_Isanbar.cfg:289
@@ -5247,9 +5247,9 @@ msgid ""
 "revived by the fragment of the Sphere. It all makes sense now. It seems that "
 "our enemy is stronger than we thought."
 msgstr ""
-"La voz que hablaba a través del Maestro de Guerra de Serrul, "
-"Uthman siendo revivido por el fragmento de la Esfera. Ahora todo tiene "
-"sentido. Parece que nuestro enemigo es más fuerte de lo que pensábamos."
+"La voz que hablaba a través del Maestro de Guerra de Serrul, Uthman siendo "
+"revivido por el fragmento de la Esfera. Ahora todo tiene sentido. Parece que "
+"nuestro enemigo es más fuerte de lo que pensábamos."
 
 #. [message], speaker=Khazran
 #: Oath_of_Allegiance_Ref/scenarios/08_Isanbar.cfg:319
@@ -5546,12 +5546,12 @@ msgid ""
 "of the sands. The Sphere is watching us. We will meet in the ruins of "
 "K'thar, next to the Cloud River. Expect me there."
 msgstr ""
-"Entonces debemos actuar ahora. Advertiré al Maestro de Guerra "
-"de Serrul, porque su propósito aún no se ha cumplido. Ilarøth e Ilriel, "
-"marchen a través de las antiguas prisiones debajo de esta poderosa montaña "
-"de Isanbar, que durante mucho tiempo compensó nuestra pérdida de la Esfera, "
-"y escabúllanse en secreto más allá de los poderes de las arenas. La Esfera "
-"nos observa. Nos encontraremos en las ruinas de K'thar, junto al Río de las "
+"Entonces debemos actuar ahora. Advertiré al Maestro de Guerra de Serrul, "
+"porque su propósito aún no se ha cumplido. Ilarøth e Ilriel, marchen a "
+"través de las antiguas prisiones debajo de esta poderosa montaña de Isanbar, "
+"que durante mucho tiempo compensó nuestra pérdida de la Esfera, y "
+"escabúllanse en secreto más allá de los poderes de las arenas. La Esfera nos "
+"observa. Nos encontraremos en las ruinas de K'thar, junto al Río de las "
 "Nubes. Espérenme allí."
 
 #. [message], speaker=Iskandar
@@ -7008,9 +7008,9 @@ msgid ""
 "making him a reliable unit to wear down enemies that focus on melee attacks."
 msgstr ""
 "\n"
-"El Tirador Certero del Desierto es una unidad orientada al rango con un "
-"ataque de tirador que lo convierte en una unidad confiable para desgastar "
-"enemigos que se enfocan en ataques cuerpo a cuerpo."
+"El Tirador Certero Barján es una unidad orientada al rango con un ataque de "
+"tirador que lo convierte en una unidad confiable para desgastar enemigos que "
+"se enfocan en ataques cuerpo a cuerpo."
 
 #. [objective], condition=win
 #: Oath_of_Allegiance_Ref/scenarios/12_Cloud_River.cfg:380
@@ -7020,7 +7020,7 @@ msgstr "Derrota al visir de Kesh"
 #. [note]
 #: Oath_of_Allegiance_Ref/scenarios/12_Cloud_River.cfg:386
 msgid "You can now recruit Dune Sharpshooter."
-msgstr "Ahora puedes reclutar Tirador Certero del Desierto."
+msgstr "Ahora puedes reclutar Tirador Certero Barján."
 
 #. [message], speaker=Ilriel
 #: Oath_of_Allegiance_Ref/scenarios/12_Cloud_River.cfg:401
@@ -7145,8 +7145,8 @@ msgid ""
 msgstr ""
 "También es nuestra única opción. Las mentes de Kesh nunca lo esperarían y "
 "una vez que estemos a través de su ejército, podemos dirigirnos a Th'arwya y "
-"convencer al Maestro de Guerra de enviar su ejército para "
-"apoyar nuestra causa."
+"convencer al Maestro de Guerra de enviar su ejército para apoyar nuestra "
+"causa."
 
 #. [message], speaker=Ilriel
 #: Oath_of_Allegiance_Ref/scenarios/12_Cloud_River.cfg:577
@@ -7186,10 +7186,10 @@ msgid ""
 "within Kesh."
 msgstr ""
 "Mientras las fuerzas de Kesh atacan Serrul, viajamos a Th'arwya y "
-"convencemos al Maestro de Guerra de estacionar su ejército "
-"junto al Río de las Nubes. Entonces las fuerzas de Kesh que atacan Serrul no "
-"podrán regresar a Kesh porque están bloqueadas por el ejército de Th'arwya. "
-"Eso nos dará tiempo para lidiar con cualquier mal que yace dentro de Kesh."
+"convencemos al Maestro de Guerra de estacionar su ejército junto al Río de "
+"las Nubes. Entonces las fuerzas de Kesh que atacan Serrul no podrán regresar "
+"a Kesh porque están bloqueadas por el ejército de Th'arwya. Eso nos dará "
+"tiempo para lidiar con cualquier mal que yace dentro de Kesh."
 
 #. [message], speaker=Dawoud
 #: Oath_of_Allegiance_Ref/scenarios/12_Cloud_River.cfg:597
@@ -7583,8 +7583,7 @@ msgstr "Haz lo mejor que puedas, Iskandar."
 #. [message], speaker=Iskandar
 #: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:246
 msgid "Dune Warmaster of Th'arwya! Ma'ralek, my old friend!"
-msgstr ""
-"¡Maestro de Guerra de Th'arwya! ¡Ma'ralek, mi viejo amigo!"
+msgstr "¡Maestro de Guerra de Th'arwya! ¡Ma'ralek, mi viejo amigo!"
 
 #. [message], speaker=Maralek
 #: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:251
@@ -7628,9 +7627,9 @@ msgid ""
 "And in times of abscence of the Dune Warmaster, his advisor and vicegerent "
 "is supposed to rule in his name. I am the Dune Warmaster of Th'arwya now."
 msgstr ""
-"Y en tiempos de ausencia del Maestro de Guerra, su asesor y "
-"vicegerente se supone que gobierna en su nombre. Ahora yo soy el Maestro de "
-"Guerra del Desierto de Th'arwya."
+"Y en tiempos de ausencia del Maestro de Guerra, su asesor y vicegerente se "
+"supone que gobierna en su nombre. Ahora yo soy el Maestro de Guerra del "
+"Desierto de Th'arwya."
 
 #. [message], speaker=Iskandar
 #: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:281
@@ -7746,10 +7745,9 @@ msgid ""
 "does not sound realistic. Why would a man of such importance travel through "
 "the vastness of the deserts with just a small group?"
 msgstr ""
-"¿Dijo que el Maestro de Guerra cruzó los desiertos con un "
-"pequeño grupo? Eso no suena realista. ¿Por qué un hombre de tanta "
-"importancia viajaría a través de la vastedad de los desiertos con solo un "
-"pequeño grupo?"
+"¿Dijo que el Maestro de Guerra cruzó los desiertos con un pequeño grupo? Eso "
+"no suena realista. ¿Por qué un hombre de tanta importancia viajaría a través "
+"de la vastedad de los desiertos con solo un pequeño grupo?"
 
 #. [message], speaker=Iskandar
 #: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:360
@@ -7758,9 +7756,9 @@ msgid ""
 "foresee fate, nor is he able to foretell the dangers that are invisible to "
 "the eye of the unaware. But Ma'ralek. He is."
 msgstr ""
-"El Maestro de Guerra de Th'arwya, Ibn Ghani, no es un athvari, "
-"Ilriel. No puede prever el destino, ni puede predecir los peligros "
-"invisibles al ojo de los desprevenidos. Pero Ma'ralek. Él sí."
+"El Maestro de Guerra de Th'arwya, Ibn Ghani, no es un athvari, Ilriel. No "
+"puede prever el destino, ni puede predecir los peligros invisibles al ojo de "
+"los desprevenidos. Pero Ma'ralek. Él sí."
 
 #. [message], speaker=Iskandar
 #: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:365
@@ -7799,38 +7797,62 @@ msgstr ""
 msgid "The group descends into the canalisation of Th'arwya"
 msgstr "El grupo desciende a la canalización de Th'arwya"
 
+#. [note]
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:389
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:534
+#: Oath_of_Allegiance_Ref/scenarios/16_Return_to_Tharwya.cfg:735
+#: Oath_of_Allegiance_Ref/scenarios/16_Return_to_Tharwya.cfg:757
+msgid ""
+"The Wyvern Trader offers special deals for Dune Spearguard, Spearmaster, "
+"Greatlance, Azyan and Sandstalker."
+msgstr ""
+"El Comerciante de Guivernos ofrece ofertas especiales para Lancero, "
+"Alabardero, Gran Alabardero, Azyan y Acechador Barján."
+
+#. [note]
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:392
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:537
+#: Oath_of_Allegiance_Ref/scenarios/16_Return_to_Tharwya.cfg:738
+#: Oath_of_Allegiance_Ref/scenarios/16_Return_to_Tharwya.cfg:760
+msgid ""
+"The Mercenary Buyer Trader buys regular units. lvl 1: 10 gold, lvl 2: 40 "
+"gold, lvl 3: 65 gold and lvl 4: 90 gold."
+msgstr ""
+"El Comprador de Mercenarios adquiere unidades normales. Nivel 1: 10 de oro, "
+"nivel 2: 40 de oro, nivel 3: 65 de oro y nivel 4: 90 de oro."
+
 #. [message], speaker=Dawoud
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:404
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:410
 msgid "That must be the entrance to the canalisation. Let us head in!"
 msgstr "Ese debe ser la entrada a la canalización. ¡Entremos!"
 
 #. [message], speaker=Wahdet
 #. [message], speaker=Azyan
 #. [message], speaker=Uthman
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:409
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:415
 #: Oath_of_Allegiance_Ref/scenarios/15_Blackhands.cfg:498
 #: Oath_of_Allegiance_Ref/scenarios/21_Battle_of_the_Eons.cfg:337
 msgid "Wait!"
 msgstr "¡Esperen!"
 
 #. [message], speaker=Dawoud
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:417
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:423
 msgid "Mercenary, speak."
 msgstr "Mercenario, habla."
 
 #. [message], speaker=Wahdet
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:422
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:428
 msgid "It is dangerous in there, you shouldn't go alone! Let me accompany you."
 msgstr ""
 "Es peligroso allí adentro, ¡no deberían ir solos! Déjenme acompañarlos."
 
 #. [message], speaker=Dawoud
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:427
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:433
 msgid "You didn't bring your weapons."
 msgstr "No trajiste tus armas."
 
 #. [message], speaker=Wahdet
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:432
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:438
 msgid ""
 "It is not the weapons that make a good warrior. The ones lurking in the "
 "depths don't care about your weapons. How do you plan to strike the shadows "
@@ -7841,12 +7863,12 @@ msgstr ""
 "sombras mismas?"
 
 #. [message], speaker=Dawoud
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:437
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:443
 msgid "It seems that the depths aren't unknown to you."
 msgstr "Parece que las profundidades no te son desconocidas."
 
 #. [message], speaker=Wahdet
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:442
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:448
 msgid ""
 "It is my task to expel the bandits from the depths. Currently, I am hiring "
 "mercenaries to support my cause. But maybe . . . I should join you. There "
@@ -7857,7 +7879,7 @@ msgstr ""
 "a ustedes. No hay muchos viajeros en estos días."
 
 #. [message], speaker=Dawoud
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:447
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:453
 msgid ""
 "Then join our group. Fighting together, they won't stand a chance. And "
 "fighting together, we'll quickly cleanse the depths and gain more time."
@@ -7867,7 +7889,7 @@ msgstr ""
 "tiempo."
 
 #. [message], speaker=Dawoud
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:465
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:471
 msgid ""
 "Meanwhile we can take a look at the merchants items. For sure we can find "
 "excellent armor, weapons and more here. Maybe we can even find some "
@@ -7878,27 +7900,27 @@ msgstr ""
 "incluso encontremos algunos mercenarios aquí que apoyen nuestra causa."
 
 #. [message], speaker=narrator
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:472
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:478
 msgid "Dondolin sells heavy armor."
 msgstr "Dondolin vende armadura pesada."
 
 #. [message], speaker=narrator
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:479
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:485
 msgid "You can hire mercenaries at Karah."
 msgstr "Puedes contratar mercenarios en Karah."
 
 #. [message], speaker=narrator
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:486
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:492
 msgid "You can sell your units to Wahdet."
 msgstr "Puedes vender tus unidades a Wahdet."
 
 #. [message], speaker=narrator
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:493
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:499
 msgid "You can buy weapons at Jadar."
 msgstr "Puedes comprar armas en Jadar."
 
 #. [message], speaker=narrator
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:500
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:506
 msgid ""
 "Sakran sells potions. Potions behave like normal items. A unit may only "
 "drink one potion. It can't wear any further item then or drink another "
@@ -7909,12 +7931,12 @@ msgstr ""
 "objeto ni beber otra poción."
 
 #. [message], speaker=narrator
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:507
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:513
 msgid "Sharaf sells mighty wyverns."
 msgstr "Sharaf vende poderosos guivernos."
 
 #. [message], speaker=narrator
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:514
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:520
 msgid ""
 "A unit is able to walk up the stairs and reach the next plateau of the tower "
 "of Th'arwya."
@@ -7923,13 +7945,13 @@ msgstr ""
 "de Th'arwya."
 
 #. [objective], condition=win
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:524
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:530
 msgid "Iskandar convinces Ma'ralek to send his army to support his cause."
 msgstr ""
 "Iskandar convence a Ma'ralek de enviar su ejército para apoyar su causa."
 
 #. [message], speaker=Uthain
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:544
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:556
 msgid ""
 "Ohhh! All these merchants! All those relics and artifacts! Now it's time to "
 "get some goodies for myself, right? Kesh isn't the true problem, the true "
@@ -7941,32 +7963,32 @@ msgstr ""
 "para comprar todas estas cosas!"
 
 #. [message]
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:565
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:577
 msgid "I tell you, yesterday I saw a scarab as large as a minotaur!"
 msgstr "Te digo, ayer vi un escarabajo tan grande como un minotauro!"
 
 #. [message]
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:569
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:581
 msgid "As large as a minotaur? I saw one like the tower of Th'arwya!"
 msgstr "¿Tan grande como un minotauro? ¡Vi uno como la torre de Th'arwya!"
 
 #. [message]
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:573
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:585
 msgid "You are lying!"
 msgstr "¡Estás mintiendo!"
 
 #. [message]
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:577
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:589
 msgid "Uhm, no?"
 msgstr "¿Uhm, no?"
 
 #. [message]
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:599
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:611
 msgid "Whatch'a looking at, sand eater? You better get out of Th'arwya!"
 msgstr "¿Qué estás mirando, come arena? ¡Mejor sal de Th'arwya!"
 
 #. [message], speaker=Azyan
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:604
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:616
 msgid ""
 "Something is indeed wrong here. Th'arwya, a city where both men and genie "
 "prosper. Yet take a look at their faces. They lost their hope. Even the "
@@ -7977,7 +7999,7 @@ msgstr ""
 "Incluso los genios se niegan a sonreír."
 
 #. [message], speaker=Azyan
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:609
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:621
 msgid ""
 "It seems like Afariyaten are tolerated in this city. This has never been the "
 "case before."
@@ -7986,12 +8008,12 @@ msgstr ""
 "sido el caso antes."
 
 #. [message], speaker=Ilriel
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:614
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:626
 msgid "Afariyaten?"
 msgstr "¿Afariyaten?"
 
 #. [message], speaker=Azyan
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:619
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:631
 msgid ""
 "Inherently evil beings. Beings that lost all senses of moral and honour. "
 "Beings that were magically created by the sands of the deserts when the "
@@ -8002,7 +8024,7 @@ msgstr ""
 "cuando los tres reyes reclamaron los tronos. Aquí, mira a su mercenario."
 
 #. [message], speaker=Azyan
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:630
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:642
 msgid ""
 "A half-afariyat. Just as I am a half-genie. This man took up the very "
 "essence of evil itself. Ilriel, the afariyaten are the foes of the genie, "
@@ -8015,7 +8037,7 @@ msgstr ""
 "con los tres reyes. ¿Por qué son tolerados aquí? Tenemos que estar atentos."
 
 #. [message]
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:647
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:659
 msgid ""
 "Hmpfh, these wyverns are huge. They can probably be ridden just like "
 "gryphons!"
@@ -8024,12 +8046,12 @@ msgstr ""
 "que grifos!"
 
 #. [message], speaker=Ilriel
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:652
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:664
 msgid "Dwarves?!"
 msgstr "¡¿Enanos?!"
 
 #. [message], speaker=Dawoud
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:663
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:675
 msgid ""
 "The citizen, the merchants . . . they don't look like they've experienced "
 "happiness for a long time. This is not the Th'arwya that I used to know."
@@ -8038,12 +8060,12 @@ msgstr ""
 "desde hace mucho tiempo. Esta no es la Th'arwya que yo conocía."
 
 #. [message], speaker=Iskandar
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:668
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:680
 msgid "Something is plaguing them and we'll have to find out what it is."
 msgstr "Algo los está atormentando y tendremos que descubrir qué es."
 
 #. [message], speaker=Iskandar
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:673
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:685
 msgid ""
 "Ma'ralek is an old friend of mine. And he is one of us. He'll have the "
 "answers that we are searching for."
@@ -8052,23 +8074,23 @@ msgstr ""
 "respuestas que buscamos."
 
 #. [message], speaker=Ilriel
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:678
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:690
 msgid "Yet the tower guardian doesn't look like he'd let us through."
 msgstr "Sin embargo, el guardián de la torre no parece que nos dejará pasar."
 
 #. [message], speaker=Biqu
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:689
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:701
 #: Oath_of_Allegiance_Ref/scenarios/16_Return_to_Tharwya.cfg:409
 msgid "Hold! You shall not pass!"
 msgstr "¡Alto! ¡No pasarán!"
 
 #. [message], speaker=Biqu
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:695
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:707
 msgid "Oh . . . an . . . an Athvari. Pass through."
 msgstr "Oh... un... un athvari. Pasen."
 
 #. [message], speaker=Dawoud
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:703
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:715
 msgid ""
 "The higher plains of the tower of Th'arwya are reserved for the ones deemed "
 "worthy. They don't know our potential . . .  not yet."
@@ -8077,17 +8099,17 @@ msgstr ""
 "considerados dignos. No conocen nuestro potencial... todavía no."
 
 #. [message], speaker=Dawoud
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:708
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:720
 msgid "But they do know yours, Iskandar. They'll let you pass."
 msgstr "Pero sí conocen el tuyo, Iskandar. Te dejarán pasar."
 
 #. [message]
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:723
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:735
 msgid "What does that woman cost?"
 msgstr "¿Cuánto cuesta esa mujer?"
 
 #. [message], speaker=Karah
-#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:728
+#: Oath_of_Allegiance_Ref/scenarios/14_Tharwya.cfg:740
 msgid "I don't sell her!"
 msgstr "¡No la vendo!"
 
@@ -8100,9 +8122,9 @@ msgid ""
 "they just be a mere shadow of their former lives?"
 msgstr ""
 "El grupo entró en la canalización de Th'arwya tal como les dijo el Maestro "
-"de Guerra del Desierto. Envuelta en oscuridad una vez más, Ilriel se "
-"preguntaba qué seres humanos vivirían en esta oscuridad. ¿Serían siquiera "
-"humanos? ¿O solo serían una mera sombra de sus vidas anteriores?"
+"de Guerra Barján. Envuelta en oscuridad una vez más, Ilriel se preguntaba "
+"qué seres humanos vivirían en esta oscuridad. ¿Serían siquiera humanos? ¿O "
+"solo serían una mera sombra de sus vidas anteriores?"
 
 #. [scenario], id=15_Blackhands
 #: Oath_of_Allegiance_Ref/scenarios/15_Blackhands.cfg:18
@@ -8384,8 +8406,8 @@ msgstr "No es mi hermano, al menos... ya no."
 #: Oath_of_Allegiance_Ref/scenarios/15_Blackhands.cfg:602
 msgid "Then let us free our former Dune Warmaster, Ibn Ghani, the fallen king."
 msgstr ""
-"Entonces liberemos a nuestro antiguo Maestro de Guerra, Ibn "
-"Ghani, el rey caído."
+"Entonces liberemos a nuestro antiguo Maestro de Guerra, Ibn Ghani, el rey "
+"caído."
 
 #. [message], speaker=Ibn Ghani
 #: Oath_of_Allegiance_Ref/scenarios/15_Blackhands.cfg:620
@@ -8714,7 +8736,7 @@ msgstr ""
 #. [message], speaker=Ibn Ghani
 #: Oath_of_Allegiance_Ref/scenarios/16_Return_to_Tharwya.cfg:250
 msgid "Bring me my mighty steed!"
-msgstr "¡Traigan mi poderoso corcel!"
+msgstr "¡Traiganme a mi poderoso corcel!"
 
 #. [object]
 #: Oath_of_Allegiance_Ref/scenarios/16_Return_to_Tharwya.cfg:254
@@ -9049,18 +9071,18 @@ msgid "Any merchant dies"
 msgstr "Cualquier mercader muere"
 
 #. [objective], condition=win
-#: Oath_of_Allegiance_Ref/scenarios/16_Return_to_Tharwya.cfg:747
+#: Oath_of_Allegiance_Ref/scenarios/16_Return_to_Tharwya.cfg:753
 msgid "Iskandar meets with Ma'ralek."
 msgstr "Iskandar se encuentra con Ma'ralek."
 
 #. [message]
-#: Oath_of_Allegiance_Ref/scenarios/16_Return_to_Tharwya.cfg:775
+#: Oath_of_Allegiance_Ref/scenarios/16_Return_to_Tharwya.cfg:787
 msgid "In the name of the sands! They returned from the depths! They made it!"
 msgstr ""
 "¡En nombre de las arenas! ¡Regresaron de las profundidades! ¡Lo lograron!"
 
 #. [message]
-#: Oath_of_Allegiance_Ref/scenarios/16_Return_to_Tharwya.cfg:780
+#: Oath_of_Allegiance_Ref/scenarios/16_Return_to_Tharwya.cfg:792
 msgid ""
 ". . . and . . . who is that? Ibn Ghani?! The Great Dune Warmaster returned! "
 "Look, boys!"
@@ -9149,8 +9171,8 @@ msgid ""
 "Look if it isn't the great Dune Warmaster of Serrul. It's time to finish "
 "this loose end!"
 msgstr ""
-"Mira si no es el gran Maestro de Guerra de Serrul. ¡Es hora de "
-"terminar este cabo suelto!"
+"Mira si no es el gran Maestro de Guerra de Serrul. ¡Es hora de terminar este "
+"cabo suelto!"
 
 #. [message], speaker=Ibn Khazul
 #: Oath_of_Allegiance_Ref/scenarios/17_The_Great_Wall.cfg:362
@@ -9359,7 +9381,7 @@ msgstr "Uzar el Traidor"
 #. [side], type=Lost Athvari
 #: Oath_of_Allegiance_Ref/scenarios/18_Uzar_the_Betrayer.cfg:59
 msgid "Dune Prophet of Kesh"
-msgstr "Profeta del Desierto de Kesh"
+msgstr "Profeta Barján de Kesh"
 
 #. [side], type=Lost Athvari
 #: Oath_of_Allegiance_Ref/scenarios/18_Uzar_the_Betrayer.cfg:64
@@ -10949,15 +10971,15 @@ msgstr ""
 "genios viven unidos es el único lugar que consideró digno para vivir. Debido "
 "a la muerte de Ibn Ghani, quien formó un baluarte contra las fuerzas de "
 "Uthman que atacaron Serrul e impidieron que pasaran el Río de las Nubes, "
-"Th'arwya no tuvo -por algún tiempo- un Gran Maestro de Guerra. "
-"Sabiendo que no es ni la sangre ni la herencia lo que determina a un rey de "
-"las grandes ciudades estado, el pueblo de Th'arwya deseó que Azyan fuera su "
-"Maestro de Guerra, ya que es el mayor símbolo de la unión entre "
-"genios y humanidad y participó en la destrucción de los tres reyes. Iskandar "
-"entonces coronó rey a Azyan. Recordando su propio pasado, Azyan demostró ser "
-"un líder misericordioso, recibiendo a menudo caravanas y viajeros en su "
-"ciudad. A través de los desiertos de ceniza, Th'arwya se convirtió en un "
-"signo constante de paz."
+"Th'arwya no tuvo -por algún tiempo- un Gran Maestro de Guerra. Sabiendo que "
+"no es ni la sangre ni la herencia lo que determina a un rey de las grandes "
+"ciudades estado, el pueblo de Th'arwya deseó que Azyan fuera su Maestro de "
+"Guerra, ya que es el mayor símbolo de la unión entre genios y humanidad y "
+"participó en la destrucción de los tres reyes. Iskandar entonces coronó rey "
+"a Azyan. Recordando su propio pasado, Azyan demostró ser un líder "
+"misericordioso, recibiendo a menudo caravanas y viajeros en su ciudad. A "
+"través de los desiertos de ceniza, Th'arwya se convirtió en un signo "
+"constante de paz."
 
 #. [part]
 #: Oath_of_Allegiance_Ref/scenarios/23_Epilogue.cfg:44
@@ -11160,12 +11182,12 @@ msgstr ""
 "población había sido asesinada o huido a Th'arwya o Serrul, se decidió no "
 "reconstruir Kesh de nuevo. Después de cumplir su tarea, Iskandar fue visto a "
 "través de las tierras del desierto, ya sea coronando a Azyan como Maestro de "
-"Guerra del Desierto de Th'arwya o ayudando a Ridwan e Ibn Khazul a "
-"reconstruir Serrul y usando su magia para lanzar hechizos protectores sobre "
-"ella. Cuando el orden reinó una vez más a través de las tierras del "
-"desierto, Iskandar parecía estar cada vez más distante y pronto regresó a la "
-"cima de Isanbar, donde meditó durante lo que parecieron años. En lo profundo "
-"de su corazón sabía que su tarea aún no había terminado."
+"Guerra Barján de Th'arwya o ayudando a Ridwan e Ibn Khazul a reconstruir "
+"Serrul y usando su magia para lanzar hechizos protectores sobre ella. Cuando "
+"el orden reinó una vez más a través de las tierras del desierto, Iskandar "
+"parecía estar cada vez más distante y pronto regresó a la cima de Isanbar, "
+"donde meditó durante lo que parecieron años. En lo profundo de su corazón "
+"sabía que su tarea aún no había terminado."
 
 #. [part]
 #: Oath_of_Allegiance_Ref/scenarios/23_Epilogue.cfg:121
@@ -11396,18 +11418,18 @@ msgid ""
 "soldiers feel at the prospect of facing a Quismat one day."
 msgstr ""
 "En una tierra de combate honorable, donde la fuerza de los ejércitos se mide "
-"principalmente por su valentía y fuerza, los Asesinos del Desierto son "
-"conocidos por su habilidad para despachar rápidamente a una persona con la "
-"velocidad de un rayo. Su pericia en asesinar a sus objetivos asegura que "
-"solo las personas que los emplean para acciones maliciosas tengan siquiera "
-"una sospecha de sus excelentes técnicas. Esto solo sirve para aumentar el "
-"horror que sienten los soldados comunes ante la perspectiva de enfrentarse a "
-"un Quismat algún día."
+"principalmente por su valentía y fuerza, los Asesinos Barján son conocidos "
+"por su habilidad para despachar rápidamente a una persona con la velocidad "
+"de un rayo. Su pericia en asesinar a sus objetivos asegura que solo las "
+"personas que los emplean para acciones maliciosas tengan siquiera una "
+"sospecha de sus excelentes técnicas. Esto solo sirve para aumentar el horror "
+"que sienten los soldados comunes ante la perspectiva de enfrentarse a un "
+"Quismat algún día."
 
 #. [unit_type], id=Dune Cloudlurker, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/cloudlurker.cfg:4
 msgid "Dune Cloudlurker"
-msgstr "Acechador de Nubes del Desierto"
+msgstr "Acechador de Nubes Barján"
 
 #. [unit_type], id=Dune Cloudlurker, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/cloudlurker.cfg:18
@@ -11417,16 +11439,15 @@ msgid ""
 "creatures of the deserts, the Dune Cloudlurker is able to hit the weak point "
 "of any enemy with ease."
 msgstr ""
-"Los Acechadores de Nubes del Desierto son expertos en sobrevivir y "
-"esconderse en la naturaleza de las tierras del sur. Dada su conocimiento de "
-"la anatomía humana y las criaturas de los desiertos, el Acechador de Nubes "
-"del Desierto es capaz de golpear el punto débil de cualquier enemigo con "
-"facilidad."
+"Los Acechadores de Nubes Barján son expertos en sobrevivir y esconderse en "
+"la naturaleza de las tierras del sur. Dada su conocimiento de la anatomía "
+"humana y las criaturas de los desiertos, el Acechador de Nubes Barján es "
+"capaz de golpear el punto débil de cualquier enemigo con facilidad."
 
 #. [unit_type], id=Dune Combuster, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/combuster.cfg:4
 msgid "Dune Combuster"
-msgstr "Incendiario del Desierto"
+msgstr "Incendiario Barján"
 
 #. [unit_type], id=Dune Combuster, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/combuster.cfg:20
@@ -11469,7 +11490,7 @@ msgstr "armadura quemada"
 #. [unit_type], id=Dune Greatlance, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/greatlance.cfg:4
 msgid "Dune Greatlance"
-msgstr "Gran Lanza del Desierto"
+msgstr "Gran Alabardero Barján"
 
 #. [unit_type], id=Dune Greatlance, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/greatlance.cfg:19
@@ -11482,12 +11503,12 @@ msgid ""
 "To proclaim the message of impregnableness, many pikes grace the outer walls "
 "of the cities - with their victims still attached to them."
 msgstr ""
-"Vestido con varias capas de gruesa armadura de cuero y acero, la Gran Lanza "
-"del Desierto ciertamente ocupa la tarea más importante entre los guerreros "
-"de los barjanes. Empuñando una poderosa pica de 5 metros de largo, la Gran "
-"Lanza del Desierto es el protector de las puertas de las grandes ciudades de "
-"las tierras del desierto y es capaz de empalar a los agresores incluso antes "
-"de que entiendan qué les llega. Para proclamar el mensaje de "
+"Vestido con varias capas de gruesa armadura de cuero y acero, el Gran "
+"Alabardero Barján ciertamente ocupa la tarea más importante entre los "
+"guerreros de los barjanes. Empuñando una poderosa pica de 5 metros de largo, "
+"la Gran Lanza Barján es el protector de las puertas de las grandes ciudades "
+"de las tierras del desierto y es capaz de empalar a los agresores incluso "
+"antes de que entiendan qué les llega. Para proclamar el mensaje de "
 "inexpugnabilidad, muchas picas adornan las murallas exteriores de las "
 "ciudades, con sus víctimas aún adheridas a ellas."
 
@@ -11499,7 +11520,7 @@ msgstr "empalar"
 #. [unit_type], id=Dune Guardsman, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/guardsman.cfg:4
 msgid "Dune Guardsman"
-msgstr "Guardia del Desierto"
+msgstr "Guardia Barján"
 
 #. [unit_type], id=Dune Guardsman, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/guardsman.cfg:17
@@ -11511,12 +11532,12 @@ msgid ""
 "are often the first to enter a battle and they only leave if the battle has "
 "been won or the last of his comrades has successfully escaped."
 msgstr ""
-"El gran escudo del Guardia del Desierto se transmite a través de las "
-"generaciones y de padre a hijo. Usualmente, al hijo mayor se le da el escudo "
-"del padre, ya sea cuando muere en batalla o de vejez y la tarea de proteger "
-"a su familia y su linaje recae sobre sus hombros. Los Guardias del Desierto "
-"a menudo son los primeros en entrar en una batalla y solo se retiran si la "
-"batalla ha sido ganada o el último de sus compañeros ha escapado con éxito."
+"El gran escudo del Guardia Barján se transmite a través de las generaciones "
+"y de padre a hijo. Usualmente, al hijo mayor se le da el escudo del padre, "
+"ya sea cuando muere en batalla o de vejez y la tarea de proteger a su "
+"familia y su linaje recae sobre sus hombros. Los Guardias Barján a menudo "
+"son los primeros en entrar en una batalla y solo se retiran si la batalla ha "
+"sido ganada o el último de sus compañeros ha escapado con éxito."
 
 #. [unit_type], id=Keshian Immortal, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/keshianimmortal.cfg:4
@@ -11543,7 +11564,7 @@ msgstr ""
 #. [unit_type], id=Dune Mage, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/mage.cfg:4
 msgid "Dune Mage"
-msgstr "Mago del Desierto"
+msgstr "Mago Barján"
 
 #. [unit_type], id=Dune Mage, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/mage.cfg:16
@@ -11557,8 +11578,8 @@ msgstr ""
 "El poder es algo que siempre ha sido un deseo profundo en el corazón de la "
 "mayoría de las personas. En algunos, el odio y la negación por la dicotomía "
 "impuesta de los athvari alcanzó un punto de ruptura, llevando a personas "
-"como el Mago del Desierto a volverse muy peligrosas por su conocimiento de "
-"la magia entre un pueblo tan abrasivo de las artes prohibidas como el pueblo "
+"como el Mago Barján a volverse muy peligrosas por su conocimiento de la "
+"magia entre un pueblo tan abrasivo de las artes prohibidas como el pueblo "
 "del desierto."
 
 #. [unit_type], id=Dune Palaceguard, race=dunefolk
@@ -11571,13 +11592,12 @@ msgid ""
 "scimitars is unmatched and they may even hit a single grain of sand floating "
 "in the wind."
 msgstr ""
-"Los Guardias del Palacio del Desierto son una clase rara de guerreros cuyo "
-"único propósito es proteger la vida de su Maestro de Guerra a "
-"toda costa. Dado que se dice que su armadura está hecha de cristales puros, "
-"los Guardias del Palacio del Desierto no son tan resistentes como sus "
-"compañeros en el campo de batalla; sin embargo, su pericia con sus pesadas "
-"cimitarras es inigualable y pueden incluso golpear un solo grano de arena "
-"flotando en el viento."
+"Los Guardias del Palacio Barján son una clase rara de guerreros cuyo único "
+"propósito es proteger la vida de su Maestro de Guerra a toda costa. Dado que "
+"se dice que su armadura está hecha de cristales puros, los Guardias del "
+"Palacio Barján no son tan resistentes como sus compañeros en el campo de "
+"batalla; sin embargo, su pericia con sus pesadas cimitarras es inigualable y "
+"pueden incluso golpear un solo grano de arena flotando en el viento."
 
 #. [unit_type], id=Dune Plunderer, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/plunderer.cfg:18
@@ -11585,8 +11605,8 @@ msgid ""
 "Wielding two great scimitars, the Dune Plunderer lives in the lands south to "
 "the ashland deserts."
 msgstr ""
-"Empuñando dos grandes cimitarras, el Saqueador del Desierto vive en las "
-"tierras al sur de los desiertos de ceniza."
+"Empuñando dos grandes cimitarras, el Saqueador Barján vive en las tierras al "
+"sur de los desiertos de ceniza."
 
 #. [swarm]
 #: Oath_of_Allegiance_Ref/units/dunefolk/plunderer.cfg:35
@@ -11594,13 +11614,13 @@ msgid ""
 "The less hitpoints the Dune Plunderer has, the more attacks he gets. Up to a "
 "max. of 6 attacks."
 msgstr ""
-"Cuanto menos puntos de vida tenga el Saqueador del Desierto, más ataques "
-"obtiene. Hasta un máximo de 6 ataques."
+"Cuanto menos puntos de vida tenga el Saqueador Barján, más ataques obtiene. "
+"Hasta un máximo de 6 ataques."
 
 #. [unit_type], id=Dune Prophet, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/prophet.cfg:4
 msgid "Dune Prophet"
-msgstr "Profeta del Desierto"
+msgstr "Profeta Barján"
 
 #. [unit_type], id=Dune Prophet, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/prophet.cfg:18
@@ -11611,12 +11631,12 @@ msgid ""
 "peers, noticing one of them on the battlefield inspires terror in their "
 "foes, as they are among the greatest dangers to any nation opposed to them."
 msgstr ""
-"Como asesores con gran poder político, los Profetas del Desierto prefieren "
-"usar vestimentas lujosas y palabras venenosas como sus armas contra los "
-"enemigos en lugar de la fuerza bruta. Armados con gran respeto y autoridad "
-"entre sus pares, notar a uno de ellos en el campo de batalla inspira terror "
-"en sus enemigos, ya que están entre los mayores peligros para cualquier "
-"nación opuesta a ellos."
+"Como asesores con gran poder político, los Profetas Barjanes prefieren usar "
+"vestimentas lujosas y palabras venenosas como sus armas contra los enemigos "
+"en lugar de la fuerza bruta. Armados con gran respeto y autoridad entre sus "
+"pares, notar a uno de ellos en el campo de batalla inspira terror en sus "
+"enemigos, ya que están entre los mayores peligros para cualquier nación "
+"opuesta a ellos."
 
 #. [attack], type=blade, range=melee
 #: Oath_of_Allegiance_Ref/units/dunefolk/prophet.cfg:24
@@ -11626,7 +11646,7 @@ msgstr "daga ceremonial"
 #. [unit_type], id=Dune Sandlurker, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/sandlurker.cfg:4
 msgid "Dune Sandlurker"
-msgstr "Acechador de Arena del Desierto"
+msgstr "Merodeador Barján"
 
 #. [unit_type], id=Dune Sandlurker, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/sandlurker.cfg:22
@@ -11636,16 +11656,15 @@ msgid ""
 "creatures of the deserts, the Dune Sandlurker is able to hit the weak point "
 "of any enemy with ease."
 msgstr ""
-"Los Acechadores de Arena del Desierto son expertos en sobrevivir y "
-"esconderse en la naturaleza de las tierras del sur. Dada su conocimiento de "
-"la anatomía humana y las criaturas de los desiertos, el Acechador de Arena "
-"del Desierto es capaz de golpear el punto débil de cualquier enemigo con "
-"facilidad."
+"Los Merodeadores Barjanes son expertos en sobrevivir y esconderse en la "
+"naturaleza de las tierras del sur. Dada su conocimiento de la anatomía "
+"humana y las criaturas de los desiertos, el Acechador Barján es capaz de "
+"golpear el punto débil de cualquier enemigo con facilidad."
 
 #. [unit_type], id=Dune Sandstalker, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/sandstalker.cfg:4
 msgid "Dune Sandstalker"
-msgstr "Acechador de Arena del Desierto"
+msgstr "Acechador Barján"
 
 #. [unit_type], id=Dune Sandstalker, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/sandstalker.cfg:22
@@ -11655,11 +11674,10 @@ msgid ""
 "creatures of the deserts, the Dune sandstalker is able to hit the weak point "
 "of any enemy with ease."
 msgstr ""
-"Los Acechadores de Arena del Desierto son expertos en sobrevivir y "
-"esconderse en la naturaleza de las tierras del sur. Dada su conocimiento de "
-"la anatomía humana y las criaturas de los desiertos, el Acechador de Arena "
-"del Desierto es capaz de golpear el punto débil de cualquier enemigo con "
-"facilidad."
+"Los Acechadores Barjanes son expertos en sobrevivir y esconderse en la "
+"naturaleza de las tierras del sur. Dada su conocimiento de la anatomía "
+"humana y las criaturas de los desiertos, el Acechador Barján es capaz de "
+"golpear el punto débil de cualquier enemigo con facilidad."
 
 #. [unit_type], id=Serrulian Sandmare, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/serruliansandmare.cfg:4
@@ -11691,10 +11709,11 @@ msgstr ""
 msgid "This unit ignores the retaliation of the enemy and just overruns it."
 msgstr "Esta unidad ignora la represalia del enemigo y simplemente lo arrolla."
 
+# pendiente: confirmar o cambiar nombre.
 #. [unit_type], id=Dune Sharpshooter, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/sharpshooter.cfg:4
 msgid "Dune Sharpshooter"
-msgstr "Tirador Certero del Desierto"
+msgstr "Tirador Certero Barján"
 
 #. [unit_type], id=Dune Sharpshooter, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/sharpshooter.cfg:22
@@ -11702,14 +11721,14 @@ msgid ""
 "The Dune Sharpshooter are bandits that live in the deserts and tend to rob "
 "caravans. They quickly move across the deserts and are hard to see."
 msgstr ""
-"Los Tiradores Certeros del Desierto son bandidos que viven en los desiertos "
-"y tienden a robar caravanas. Se mueven rápidamente a través de los desiertos "
-"y son difíciles de ver."
+"Los Tiradores Certeros Barján son bandidos que viven en los desiertos y "
+"tienden a robar caravanas. Se mueven rápidamente a través de los desiertos y "
+"son difíciles de ver."
 
 #. [unit_type], id=Dune Shieldguard, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/shieldguard.cfg:4
 msgid "Dune Shieldguard"
-msgstr "Guardia de Escudo del Desierto"
+msgstr "Protector Barján"
 
 #. [unit_type], id=Dune Shieldguard, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/shieldguard.cfg:17
@@ -11722,19 +11741,18 @@ msgid ""
 "protect the Dune Shieldguard himself from arrows and spears, but also "
 "adjacent soldiers."
 msgstr ""
-"Los guardias de escudo del desierto que han demostrado defender a sus "
-"compañeros a toda costa reciben el rango de Guardia de Escudo del Desierto. "
-"El escudo del Guardia de Escudo del Desierto es entonces encantado por "
-"genios místicos dándole grandes poderes. En batalla, muchos soldados "
-"ordinarios como el Errante del Desierto o el Soldado del Desierto prefieren "
-"quedarse cerca del Guardia de Escudo del Desierto, ya que su poderoso escudo "
-"es capaz de no solo proteger al propio Guardia de Escudo del Desierto de "
-"flechas y lanzas, sino también a soldados adyacentes."
+"Los Protectores Barjanes que han demostrado defender a sus compañeros a toda "
+"costa reciben el rango de Protector Barján. El escudo del Protector Barján "
+"es entonces encantado por genios místicos dándole grandes poderes. En "
+"batalla, muchos soldados ordinarios como el Caminante Barján o el Soldado "
+"Barján prefieren quedarse cerca del Protector Barján, ya que su poderoso "
+"escudo es capaz de no solo proteger al propio Protector Barján de flechas y "
+"lanzas, sino también a soldados adyacentes."
 
 #. [unit_type], id=Afariyat_Dune Slaughterer, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/slaughterer-afariyat.cfg:4
 msgid "Afariyat-Dune Slaughterer"
-msgstr "Carnicero del Desierto Afariyat"
+msgstr "Carnicero Barján Afariyat"
 
 #. [unit_type], id=Afariyat_Dune Slaughterer, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/slaughterer-afariyat.cfg:18
@@ -11745,12 +11763,12 @@ msgid ""
 msgstr ""
 "Los ashuar son mercenarios de las tierras al sur de los desiertos de ceniza. "
 "Luchan por quien pague el precio más alto y a menudo son pagados por "
-"Maestros de Guerra del Desierto para atacar a sus enemigos."
+"Maestros de Guerra Barján para atacar a sus enemigos."
 
 #. [unit_type], id=Dune Slaughterer, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/slaughterer.cfg:4
 msgid "Dune Slaughterer"
-msgstr "Carnicero del Desierto"
+msgstr "Carnicero Barján"
 
 #. [unit_type], id=Dune Slaughterer, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/slaughterer.cfg:18
@@ -11759,9 +11777,9 @@ msgid ""
 "deserts. They are fighting for whoever paid the highest price and often they "
 "are paid by Dune Warmasters to attack their foes."
 msgstr ""
-"Los Carniceros del Desierto son mercenarios de las tierras al sur de los "
+"Los Carniceros Barjanes son mercenarios de las tierras al sur de los "
 "desiertos de ceniza. Luchan por quien pague el precio más alto y a menudo "
-"son pagados por Maestros de Guerra del Desierto para atacar a sus enemigos."
+"son pagados por Maestros de Guerra Barján para atacar a sus enemigos."
 
 #. [unit_type], id=Tharwyan Yercrona, race=dunefolk
 #: Oath_of_Allegiance_Ref/units/dunefolk/tharwyanyercrona.cfg:4
